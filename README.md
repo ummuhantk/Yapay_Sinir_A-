@@ -1,3 +1,21 @@
+# Problem Tanımı
+Elimizdeki veriler, farklı yıllar, yaş grupları, cinsiyetler ve memnuniyet durumlarının yüzdesel dağılımlarını içeriyor. Amacımız, bu verilerden yararlanarak bir kişinin belirli bir yılda, yaş grubuna ve cinsiyetine göre memnuniyet durumunu (Memnun, Ne Memnun Ne Memnun Değil, Memnun Değil) tahmin edebilecek bir yapay sinir ağı modeli geliştirmektir.
+# Hedef
+Verileri işleyerek kategorik değişkenleri sayısal verilere dönüştürmek ve analiz edilebilir hale getirmek.
+Yapay sinir ağı (YSA) modeliyle, belirli giriş özelliklerinden (yıl, yaş grubu, cinsiyet, yüzdesel veri) memnuniyet durumunu sınıflandırmak.
+Model performansını değerlendirmek ve sonuçları görselleştirerek analiz etmek.
+
+# Elde Edilen Sonuçlar
+
+# Model Performansı:
+Eğitim ve doğrulama sırasında modelin doğruluk ve kayıp değerleri dengeliydi, bu da modelin aşırı öğrenme yapmadığını gösterdi.
+Test setindeki tahminler Confusion Matrix ve Classification Report ile değerlendirildi. Model, sınıfları doğru bir şekilde ayırt etmede makul bir başarı gösterdi.
+# Görselleştirme:
+Eğitim ve doğrulama kayıpları grafik olarak gösterildi. Modelin istikrarlı bir şekilde iyileştiği ve doğrulama setinde aşırı dalgalanma yaşanmadığı gözlemlendi.
+# Genel Başarı:
+YSA modeli, memnuniyet durumunu yıllara, yaş gruplarına ve cinsiyetlere göre anlamlı bir doğrulukla tahmin edebildi.
+# Özet
+Bu proje, kategorik veriler üzerinde bir sınıflandırma modeli oluşturarak, insanların memnuniyet durumlarını tahmin etmek için bir yapay sinir ağı kullandı. Eğitim, doğrulama ve test sonuçları modelin genel olarak başarılı bir şekilde çalıştığını gösterdi.
 # Yapay Sinir Ağları ile Makine Öğrenmesi Modeli
 Bu projede, çeşitli memnuniyet verilerini kullanarak yapay sinir ağları ile makine öğrenmesi modeli oluşturacağız. Veriler üzerinde ön işleme, model oluşturma, eğitme ve değerlendirme adımlarını gerçekleştireceğiz.
 
