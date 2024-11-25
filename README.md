@@ -1,0 +1,1 @@
+# Yapay_Sinir_A-
